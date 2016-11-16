@@ -1,0 +1,61 @@
+.services-icons
+  margin: 0 0 110px 0
+  width: 100%
+  height: 200px
+  position: relative
+  +display(flex)
+  +justify-content(center)
+  background-color: $accent
+  z-index: 1
+
+.alt-bg
+  z-index: 2
+  background-color: $accent-light
+  width: 50%
+  height: 200px
+  +position(absolute, null 0px null null)
+
+.icon-unit
+  z-index: 3
+  height: 200px
+  width: 250px
+  display: inline-block
+  text-align: center
+  text-transform: uppercase
+  color: white
+  i
+    display: block
+    font-size: 40px
+    padding: 50px 0 20px 0
+  span
+    font-size: 14px
+    font-weight: 700
+.accent
+  background-color: $accent
+.accent-light
+  background-color: $accent-light
+
+.service-unit
+  margin: 0 0 60px 0
+  i
+    margin: 0 15px 0 0
+    height: 100%
+    text-align: center
+    line-height: 35px
+    font-size: 18px
+    +size(35px)
+    border-radius: 50%
+    background-color: $hover-color
+    color: white
+    float: left
+
+  h5
+    font-size: 18px
+    font-weight: 700
+    color: rgba(0, 0, 0, 0.9)
+    text-transform: uppercase
+    margin: 5px 0 15px 0
+  p
+    color: $gray-color
+    margin-left: 50px
+    font-size: 14px
