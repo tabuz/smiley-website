@@ -16,20 +16,22 @@
   +position(absolute, null 0px null null)
 
 .icon-unit
+  +display(flex)
+  +align-items(center)
+  +justify-content(center)
+  +flex-direction(column)
   z-index: 3
   height: 200px
   width: 250px
-  display: inline-block
   text-align: center
   text-transform: uppercase
   color: white
   i
-    display: block
     font-size: 40px
-    padding: 50px 0 20px 0
+    margin-bottom: 10px
   span
     font-size: 14px
-    font-weight: 700
+    font-weight: 400
 .accent
   background-color: $accent
 .accent-light
