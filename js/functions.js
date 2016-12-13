@@ -61,7 +61,7 @@ $(document).ready(function(){
         var div_top = $('header').offset().top;
             if (window_top > div_top) {
                 $('nav').addClass('stick');
-                $('#home').css('margin-top', '115px');
+                $('#home').css('margin-top', '80px');
             } else {
                 $('nav').removeClass('stick');
                 $('#home').css('margin-top', '0');
@@ -74,7 +74,7 @@ $(document).ready(function(){
      */
     $("nav a").click(function(evn){
         evn.preventDefault();
-        $('html,body').scrollTo(this.hash, this.hash, {offset:-140});
+        $('html,body').scrollTo(this.hash, this.hash, {offset:-150});
     });
 
     /**
